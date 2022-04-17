@@ -5,8 +5,37 @@
           box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 .container {
-  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.header .navigation, .header .preview-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation {
+  background-color: #2c2d31;
+}
+
+.header .navigation__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .navigation__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

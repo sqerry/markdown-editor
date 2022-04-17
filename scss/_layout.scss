@@ -1,4 +1,19 @@
 .container{
-    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1.2rem;
+}
+.header{
+    .navigation, .preview-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navigation{
+        background-color: $body;
+        &__menu{
+            display: flex;
+        }
+        &__buttons{
+            display: flex;
+        }
+    }
 }
